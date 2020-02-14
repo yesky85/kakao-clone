@@ -1,5 +1,17 @@
+.header-wrapper {
+  background-color: inherit;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .chats-body {
-  padding: 0;
+  padding: 10px 0;
+  padding-top: 100px;
 }
 
 .chats-body .status-bar,
@@ -10,7 +22,7 @@
 
 .chat-screen {
   background-image: url('../images/chatBg.png');
-  height: 100vh;
+  height: 1000vh;
 }
 
 .chat__write {
